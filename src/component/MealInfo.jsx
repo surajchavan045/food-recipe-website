@@ -28,7 +28,7 @@ const MealInfo = () => {
         <button>{info.strMeal}</button>
         <h3>Intruction's</h3>
         <p>{info.strInstructions}</p>
-        <button>catagory :- {info.strCategory}</button>
+        <button>Catagory :- {info.strCategory}</button>
         <h1><a href={info.strYoutube}>Datails of this Recipe on Youtube</a></h1>
       </div>
     </div>

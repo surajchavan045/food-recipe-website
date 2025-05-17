@@ -5,12 +5,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(236, 247, 189);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
 
 .searchBar{
   display: flex;
@@ -62,7 +64,7 @@ code {
   border-radius: 11px;
 }
 .mealImg p{
-  font-weight: 600;
+  font-weight: 900;
 }
 .mealImg button{
   width: 120px;
@@ -81,13 +83,13 @@ code {
  }
  .mealInfo {
   /* width: 90%; */
-  height: 90vh;
+  height: 100vh;
   margin: auto;
   display: flex;
   gap: 22px;
   justify-content:center ;
   align-items: center;
-  background-color: rgb(255, 181, 42);
+  background-color: rgb(252, 207, 124);
   padding: 32px;
  }
 
@@ -111,7 +113,7 @@ code {
   text-decoration: none;
 }
 
-.mealInfo .info a :hover{
+.mealInfo .info a :active{
   color: red;
 }
 
