@@ -90,6 +90,11 @@ code {
   background-color: rgb(255, 181, 42);
   padding: 32px;
  }
+
+ .info{
+  padding-top: 140px;
+ }
+
  .mealInfo button{
   border: none;
   padding: 9px;
@@ -101,6 +106,15 @@ code {
 .mealInfo .info{
   margin-top: -112px;
 }
+
+.mealInfo .info a{
+  text-decoration: none;
+}
+
+.mealInfo .info a :hover{
+  color: red;
+}
+
 .msg{
   text-align: center;
 }
