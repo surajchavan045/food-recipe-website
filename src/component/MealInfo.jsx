@@ -29,7 +29,7 @@ const MealInfo = () => {
         <h3>Intruction's</h3>
         <p>{info.strInstructions}</p>
         <button>Catagory :- {info.strCategory}</button>
-        <h1><a href={info.strYoutube}>Datails of this Recipe on Youtube Search Here</a></h1>
+        <h1>Datails of this Recipe on Youtube<a href={info.strYoutube}> Search Here</a></h1>
       </div>
     </div>
     }
